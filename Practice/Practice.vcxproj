@@ -150,6 +150,10 @@
   <ItemGroup>
     <ClCompile Include="1A_TheatreSquare.cpp" />
     <ClCompile Include="1324D_ PairOfTopics.cpp" />
+    <ClCompile Include="String_Task_118A.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="String_Task_118A.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
