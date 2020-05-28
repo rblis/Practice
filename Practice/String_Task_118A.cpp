@@ -4,7 +4,14 @@ bool check_vowel(char chr);
 
 int main() {
 	string str;
+	int strlen;
 	cin >> str;
+	strlen = str.length();
+	for (int k = 0; k < strlen; k++) {
+		if (check_vowel(str[k])) {
+
+		}
+	}
 	bool vow = check_vowel(str[0]);
 	cout << vow;
 
@@ -15,6 +22,6 @@ bool check_vowel(char chr) {
 		return true;
 	}
 	else {
-		false;
+		return false;
 	}
 }
