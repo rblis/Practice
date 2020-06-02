@@ -24,6 +24,9 @@
     <ClCompile Include="String_Task_118A.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Eternal_Immortality_869B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="String_Task_118A.h">
