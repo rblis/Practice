@@ -19,7 +19,7 @@ int main(){
 		cin >> arr[j].probs >> arr[j].time;
 	}*/
 
-	int n = 7;
+	int n = 7, k = 1;
 	result arr[] = { {4,10},  {3, 20} , {4,10}, {4,10} , {2,1}, {2,1}, {1,10} };
 	
 
@@ -29,14 +29,14 @@ int main(){
 	result temp;
 	for (int j = 0; j < n; j++) {
 		for (int i = 0; i < n-1; i++) {
-			if (arr[i].probs > arr[i + 1].probs) {//Compare number of problems solved
+			if (arr[i].probs < arr[i + 1].probs) {//Compare number of problems solved
 				temp = arr[i];
 				arr[i] = arr[i + 1];
 				arr[i + 1] = temp;
 			}
 
 			if (arr[i].probs == arr[i + 1].probs) {// Compare solving times if same number of problems have been solved
-				if (arr[i].time < arr[i + 1].time) {
+				if (arr[i].time > arr[i + 1].time) {
 					temp = arr[i];
 					arr[i] = arr[i + 1];
 					arr[i + 1] = temp;
@@ -45,11 +45,26 @@ int main(){
 
 		}
 	}
-
-	cout << "data sorted";
+	int count = 1;
+	for (int j = 0; j < n - k; j++) {
+		if (arr[k + j].probs == arr[k + j + 1].probs && arr[k + j].time == arr[k + j + 1].time) {
+			count++;
+		}
+		else {
+			break;
+		}
+	}
+	for (int j = 0; j > k *-1 && k + j > 0 ; j--) {
+		if (arr[k + j].probs == arr[k + j - 1].probs && arr[k + j].time == arr[k + j - 1].time){
+			count++;
+		}
+		else {
+			break;
+		}
+	}
+	cout << "data sorted: " << count << "\n";
 	print(arr, &n);
-	delete[] arr;
-
+	//delete[] arr;
 }
 
 void print(result *arr, int *n) {
