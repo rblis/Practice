@@ -148,8 +148,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1A_TheatreSquare.cpp" />
-    <ClCompile Include="1324D_ PairOfTopics.cpp" />
+    <ClCompile Include="Cutting_998B.cpp" />
+    <ClCompile Include="Theatre_Square_1A.cpp" />
+    <ClCompile Include="Pair_Of_Topics_1324D.cpp" />
     <ClCompile Include="Eternal_Immortality_869B.cpp" />
     <ClCompile Include="Rank_List_166A.cpp" />
     <ClCompile Include="String_Task_118A.cpp" />

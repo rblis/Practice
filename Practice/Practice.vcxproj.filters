@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1A_TheatreSquare.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="1324D_ PairOfTopics.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="String_Task_118A.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -28,6 +22,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Rank_List_166A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pair_Of_Topics_1324D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Theatre_Square_1A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cutting_998B.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
