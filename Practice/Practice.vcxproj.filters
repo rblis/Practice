@@ -33,6 +33,9 @@
     <ClCompile Include="Cutting_998B.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Watermellon_4A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="String_Task_118A.h">

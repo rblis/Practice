@@ -154,6 +154,7 @@
     <ClCompile Include="Eternal_Immortality_869B.cpp" />
     <ClCompile Include="Rank_List_166A.cpp" />
     <ClCompile Include="String_Task_118A.cpp" />
+    <ClCompile Include="Watermellon_4A.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="String_Task_118A.h" />

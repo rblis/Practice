@@ -63,7 +63,7 @@ int main() {
 		}		
 	}
 	int least = 999999999, index = -1, cuts =0;
-	for (int j = 2; j < n; j += 2) {		
+	for (int j = 2; j < n; j += 2) {//Test all the valid cut sections where parity is 0 in order based on increasing cut-cost
 		for (int k = 2; k < n; k += 2) {
 			if (list[k].cost >= 0 && list[k].cost < least && list[k-1].parity == 0) {
 				least = list[k].cost;
